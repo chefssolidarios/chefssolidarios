@@ -22,11 +22,11 @@ export const Nav = () => {
           <li>
             <a
               href="https://www.gofundme.com/f/valencia-necesita-comer-ayudala"
-              aria-label="Donar"
-              title="Donar"
+              aria-label="Crowfunding"
+              title="Crowfunding"
               className="font-bold tracking-wide text-gray-700 transition-colors duration-200 hover:text-chefs-400"
             >
-              Donar
+              Crowfunding
             </a>
           </li>
           <li className="relative">
@@ -148,11 +148,11 @@ export const Nav = () => {
                     <li>
                       <a
                         href="https://www.gofundme.com/f/valencia-necesita-comer-ayudala"
-                        aria-label="Donar"
-                        title="Donar"
+                        aria-label="Crowfunding"
+                        title="Crowfunding"
                         className="font-semibold tracking-wide text-gray-700 transition-colors duration-200 hover:text-chefs-400"
                       >
-                        Donar
+                        Crowfunding
                       </a>
                     </li>
                     <li>
