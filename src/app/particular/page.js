@@ -13,28 +13,28 @@ function Particular() {
           title="Únete como Voluntario"
           description="Sé parte de nuestra comunidad solidaria apoyando en la cocina, reparto, marketing, gestión de stock y más."
           linkText="Quiero ser voluntario"
-          linkUrl="/"
+          linkUrl="https://docs.google.com/forms/d/e/1FAIpQLSc6SokDK1WtDHsTXDC2FUrQs-a-myKKNQuWUhzLbS9OZBoFiw/viewform"
           iconName="Volunteer"
         />
         <CardComponent
           title="Sé un Chef Solidario"
-          description="Usa tu talento culinario para preparar comidas para quienes más lo necesitan"
+          description='Usa tu talento culinario para preparar comidas para quienes más lo necesitan. Contáctanos en chefssolidarios.voluntarios@gmail.com con el asunto "CHEF".'
           linkText="Quiero ser un Chef Solidario"
-          linkUrl="/"
+          linkUrl="mailto:chefssolidarios.voluntarios@gmail.com?Subject=CHEF"
           iconName="Chefs"
         />
         <CardComponent
           title="Ayuda con el Reparto"
           description="¿Tienes vehículo? únete para entregar comidas calientes a las familias afectadas."
           linkText="Quiero ayudar con el reparto"
-          linkUrl="/"
+          linkUrl="https://docs.google.com/forms/d/e/1FAIpQLSc6SokDK1WtDHsTXDC2FUrQs-a-myKKNQuWUhzLbS9OZBoFiw/viewform"
           iconName="Truck"
         />
         <CardComponent
           title="Apoya con Tu Donación"
           description="Con tu contribución, podremos seguir cocinando y entregando comidas a quienes más lo necesitan. ¡Cada donación cuenta!"
           linkText="Quiero hacer una donación"
-          linkUrl="/"
+          linkUrl="#donation"
           iconName="Donations"
         />
       </div>

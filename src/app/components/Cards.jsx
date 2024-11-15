@@ -24,8 +24,9 @@ const CardComponent = ({ title, description, linkText, linkUrl, iconName }) => {
 
   return (
     <a
+      target="_blank"
       href={linkUrl}
-      className="relative p-px overflow-hidden transition duration-300 transform border  shadow-sm hover:scale-105 group hover:shadow-xl rounded-3xl !bg-chefs-400"
+      className="relative p-px overflow-hidden transition duration-300 transform border  shadow-sm hover:scale-105 group hover:shadow-xl rounded-3xl !bg-chefs-800 hover:!bg-chefs-500"
     >
       <div className="relative flex flex-col h-full p-5 md:p-10  rounded-sm lg:items-center lg:flex-row ">
         <div className="mb-6 mr-6 md:mr-10 lg:mb-0">
@@ -43,10 +44,12 @@ const CardComponent = ({ title, description, linkText, linkUrl, iconName }) => {
             <h6 className="mb-2 md:mb-4 text-2xl text-white font-semibold leading-5">
               {title}
             </h6>
-            <p className="mb-2 text-sm text-white text-pretty">{description}</p>
+            <p className="mb-2 text-sm md:text-base text-white text-pretty">
+              {description}
+            </p>
           </div>
 
-          <span className="inline-flex items-center text-sm font-semibold transition-colors duration-200 text-chefs-100 hover:text-chefs-800 ">
+          <span className="inline-flex items-center text-sm font-semibold transition-colors duration-200 text-chefs-100 ">
             {linkText}
             <svg
               className="inline-block w-2 ml-1"

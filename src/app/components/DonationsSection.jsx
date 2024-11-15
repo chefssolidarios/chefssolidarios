@@ -2,7 +2,10 @@ import React from "react";
 
 const DonationsSection = () => {
   return (
-    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+    <div
+      id="donation"
+      className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20"
+    >
       <div className="max-w-3xl sm:text-center sm:mx-auto">
         <div className="inline-block mb-4">
           <div className="flex items-center justify-center w-12 h-12 rounded-full">
@@ -26,10 +29,7 @@ const DonationsSection = () => {
             </svg>
           </div>
         </div>
-        <h2
-          id="donation"
-          className="mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none"
-        >
+        <h2 className="mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
           Donaciones
         </h2>
         <p className="text-base text-gray-700 md:text-lg text-pretty">
