@@ -24,7 +24,7 @@ export const Nav = () => {
               href="https://www.gofundme.com/f/valencia-necesita-comer-ayudala"
               aria-label="Donar"
               title="Donar"
-              className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-chefs-400"
+              className="font-bold tracking-wide text-gray-700 transition-colors duration-200 hover:text-chefs-400"
             >
               Donar
             </a>
@@ -33,7 +33,7 @@ export const Nav = () => {
             {/* Botón principal */}
             <button
               onClick={() => setIsSubmenuOpen(!isSubmenuOpen)}
-              className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-chefs-400 focus:outline-none"
+              className="font-bold tracking-wide text-gray-700 transition-colors duration-200 hover:text-chefs-400 focus:outline-none"
               aria-label="Quiero ayudar"
               title="Quiero ayudar"
             >
@@ -66,7 +66,7 @@ export const Nav = () => {
           <li>
             <a
               href="/necesito-ayuda"
-              className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded-2xl shadow-md bg-chefs-400 hover:bg-chefs-700 focus:shadow-outline focus:outline-none"
+              className="inline-flex items-center justify-center h-12 px-6 font-bold tracking-wide text-white transition duration-200 rounded-2xl shadow-md bg-chefs-400 hover:bg-chefs-700 focus:shadow-outline focus:outline-none"
               aria-label="Necesito ayuda"
               title="Necesito ayuda"
             >

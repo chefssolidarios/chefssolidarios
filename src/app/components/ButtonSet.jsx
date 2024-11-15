@@ -38,13 +38,15 @@ function ButtonSet() {
               </a>
             </div>
 
-            <div className="relative overflow-hidden bg-chefs-800 hover:bg-chefs-400 rounded-2xl transition duration-300 transform  hover:scale-105">
+            <div className="relative overflow-hidden bg-chefs-800 hover:bg-chefs-500 rounded-2xl transition duration-300 transform  hover:scale-105">
               {/* Tarjeta con contenido */}
               <a
                 href="/particular"
-                className="  z-30 relative   flex justify-between items-center px-10 py-16 text-white  uppercase "
+                className="z-30 relative flex justify-between items-center px-10 py-16 text-white uppercase "
               >
                 <span className="font-semibold text-3xl leading-none">
+                  <span className="text-xl text-chefs-200 ">quiero ayudar</span>
+                  <br />
                   soy <br />
                   Particular
                 </span>
@@ -70,12 +72,14 @@ function ButtonSet() {
               </a>
             </div>
 
-            <div className="relative overflow-hidden bg-chefs-800 hover:bg-chefs-400 rounded-2xl transition duration-300 transform  hover:scale-105">
+            <div className="relative overflow-hidden bg-chefs-800 hover:bg-chefs-500 rounded-2xl transition duration-300 transform  hover:scale-105">
               <a
                 href="/empresa"
                 className="  z-30 relative   flex justify-between items-center px-10 py-16 text-white  uppercase "
               >
                 <span className="font-semibold text-3xl leading-none">
+                  <span className="text-xl text-chefs-200 ">quiero ayudar</span>
+                  <br />
                   soy <br />
                   empresa
                 </span>

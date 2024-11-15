@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        "support-hands": "url('/images/support-hands.webp')",
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",

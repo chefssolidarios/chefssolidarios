@@ -8,7 +8,7 @@ function MapHome() {
           <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-teal-accent-400">
             <svg
               viewBox="0 0 24 24"
-              className="text-chefs-800"
+              className="text-chefs-500"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -41,7 +41,7 @@ function MapHome() {
               Nos encontramos
               <br className="hidden md:block" />
               en la{" "}
-              <span className="inline-block text-chefs-800">
+              <span className="inline-block text-chefs-500">
                 Feria de Valencia
               </span>
             </h2>
