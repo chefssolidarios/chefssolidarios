@@ -1,64 +1,74 @@
 "use client";
 import { useState } from "react";
+
 export const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isSubmenuOpen, setIsSubmenuOpen] = useState(false);
 
   return (
-    <div className=" py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl ">
+    <div className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-0 lg:px-0">
       <div className="relative flex items-center justify-between">
         <a
           href="/"
-          aria-label="Company"
-          title="Company"
+          aria-label="Chef Solidarios"
+          title="Chef Solidarios"
           className="inline-flex items-center"
         >
-          {/* <svg
-            className="w-8 text-chefs-400"
-            viewBox="0 0 24 24"
-            strokeLinejoin="round"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeMiterlimit="10"
-            stroke="currentColor"
-            fill="none"
-          >
-            <rect x="3" y="1" width="7" height="12" />
-            <rect x="3" y="17" width="7" height="6" />
-            <rect x="14" y="1" width="7" height="6" />
-            <rect x="14" y="11" width="7" height="12" />
-          </svg> */}
-          <span className=" text-xl font-bold tracking-wide text-gray-800 uppercase">
-            Chefs Solidarios
+          <span className=" text-xl font-extrabold leading-none text-center transform scale-90 tracking-wide text-gray-800 uppercase">
+            Chefs <br /> Solidarios
           </span>
         </a>
-        <ul className="flex items-center hidden space-x-8 lg:flex">
+        <ul className=" items-center hidden space-x-8 lg:flex">
           <li>
             <a
-              href="/"
-              aria-label="Our product"
-              title="Our product"
+              href="https://www.gofundme.com/f/valencia-necesita-comer-ayudala"
+              aria-label="Donar"
+              title="Donar"
               className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-chefs-400"
             >
               Donar
             </a>
           </li>
-          <li>
-            <a
-              href="/"
-              aria-label="Our product"
-              title="Our product"
-              className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-chefs-400"
+          <li className="relative">
+            {/* Botón principal */}
+            <button
+              onClick={() => setIsSubmenuOpen(!isSubmenuOpen)}
+              className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-chefs-400 focus:outline-none"
+              aria-label="Quiero ayudar"
+              title="Quiero ayudar"
             >
               Quiero ayudar
-            </a>
+            </button>
+
+            {/* Menú desplegable */}
+            {isSubmenuOpen && (
+              <ul className="z-50 absolute -left-10 top-8 w-40 mt-2 bg-white border border-gray-200 rounded shadow-lg">
+                <li>
+                  <a
+                    href="/particular"
+                    className="block px-4 py-2 text-gray-700 hover:bg-chefs-50 hover:text-chefs-400"
+                  >
+                    Soy particular
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/empresa"
+                    className="block px-4 py-2 text-gray-700 hover:bg-chefs-50 hover:text-chefs-400"
+                  >
+                    Soy empresa
+                  </a>
+                </li>
+              </ul>
+            )}
           </li>
 
           <li>
             <a
               href="/necesito-ayuda"
               className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded-2xl shadow-md bg-chefs-400 hover:bg-chefs-700 focus:shadow-outline focus:outline-none"
-              aria-label="Sign up"
-              title="Sign up"
+              aria-label="Necesito ayuda"
+              title="Necesito ayuda"
             >
               Necesito ayuda
             </a>
@@ -66,8 +76,8 @@ export const Nav = () => {
         </ul>
         <div className="lg:hidden">
           <button
-            aria-label="Open Menu"
-            title="Open Menu"
+            aria-label="Abrir Menu"
+            title="Abrir Menu"
             className="p-2 -mr-1 transition duration-200 rounded focus:outline-none focus:shadow-outline hover:bg-deep-purple-50 focus:bg-deep-purple-50"
             onClick={() => setIsMenuOpen(true)}
           >
@@ -93,8 +103,8 @@ export const Nav = () => {
                   <div>
                     <a
                       href="/"
-                      aria-label="Company"
-                      title="Company"
+                      aria-label="Chef Solidarios"
+                      title="Chef Solidarios"
                       className="inline-flex items-center"
                     >
                       <svg
@@ -113,7 +123,7 @@ export const Nav = () => {
                         <rect x="14" y="11" width="7" height="12" />
                       </svg>
                       <span className="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
-                        Company
+                        Chef Solidarios
                       </span>
                     </a>
                   </div>
@@ -137,10 +147,10 @@ export const Nav = () => {
                   <ul className="space-y-4">
                     <li>
                       <a
-                        href="/"
-                        aria-label="Our product"
-                        title="Our product"
-                        className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-chefs-400"
+                        href="https://www.gofundme.com/f/valencia-necesita-comer-ayudala"
+                        aria-label="Donar"
+                        title="Donar"
+                        className="font-semibold tracking-wide text-gray-700 transition-colors duration-200 hover:text-chefs-400"
                       >
                         Donar
                       </a>
@@ -148,9 +158,9 @@ export const Nav = () => {
                     <li>
                       <span
                         href="/"
-                        aria-label="Our product"
-                        title="Our product"
-                        className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-chefs-400"
+                        aria-label="Quiero Ayudar"
+                        title="Quiero Ayudar"
+                        className="font-semibold tracking-wide text-gray-700 transition-colors duration-200 hover:text-chefs-400"
                       >
                         Quiero ayudar
                       </span>
@@ -158,7 +168,7 @@ export const Nav = () => {
                         <li>
                           <a
                             href="/particular"
-                            className="pl-4  font-medium tracking-wide text-gray-500 transition-colors duration-200 hover:text-chefs-400"
+                            className="pl-4  font-semibold tracking-wide text-gray-500 transition-colors duration-200 hover:text-chefs-400"
                           >
                             Soy particular
                           </a>
@@ -166,7 +176,7 @@ export const Nav = () => {
                         <li>
                           <a
                             href="/empresa"
-                            className="pl-4 font-medium tracking-wide text-gray-500 transition-colors duration-200 hover:text-chefs-400"
+                            className="pl-4 font-semibold tracking-wide text-gray-500 transition-colors duration-200 hover:text-chefs-400"
                           >
                             Soy empresa
                           </a>
@@ -177,9 +187,9 @@ export const Nav = () => {
                     <li>
                       <a
                         href="/necesito-ayuda"
-                        className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-chefs-400 hover:bg-chefs-700 focus:shadow-outline focus:outline-none"
-                        aria-label="Sign up"
-                        title="Sign up"
+                        className="inline-flex items-center justify-center w-full h-12 px-6 font-semibold tracking-wide text-white transition duration-200 rounded shadow-md bg-chefs-400 hover:bg-chefs-700 focus:shadow-outline focus:outline-none"
+                        aria-label="Necesito Ayuda"
+                        title="Necesito Ayuda"
                       >
                         Necesito ayuda
                       </a>
