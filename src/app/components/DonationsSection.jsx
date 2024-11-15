@@ -26,7 +26,10 @@ const DonationsSection = () => {
             </svg>
           </div>
         </div>
-        <h2 className="mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+        <h2
+          id="donation"
+          className="mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none"
+        >
           Donaciones
         </h2>
         <p className="text-base text-gray-700 md:text-lg text-pretty">

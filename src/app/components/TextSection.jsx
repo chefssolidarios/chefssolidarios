@@ -132,7 +132,7 @@ const TextSection = ({ title, children, imageSrc, position = "left" }) => {
         {/* Imagen a la derecha */}
         <div className={`flex ${position === "left" ? "hidden" : "block"}`}>
           <img
-            className="object-cover w-full h-56 rounded-2xl shadow-lg sm:h-96"
+            className="object-cover w-full max-w-[600px]  h-56 rounded-2xl shadow-lg sm:h-[750px]"
             src={imageSrc}
             alt={title}
           />

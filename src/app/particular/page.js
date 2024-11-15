@@ -39,7 +39,11 @@ function Particular() {
         />
       </div>
 
-      <TextSection title="¿A qué hora?" imageSrc="./imgaes/g" position="right">
+      <TextSection
+        title="Galeria Feria Valencia"
+        imageSrc="./images/galeria-feria-valencia.webp"
+        position="right"
+      >
         <p className="text-base text-gray-500 md:text-lg mb-4">
           Tenemos dos turnos de voluntariado:
         </p>
