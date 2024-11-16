@@ -6,7 +6,7 @@ function Empresa() {
   return (
     <div className="flex flex-col items-center">
       <HeaderBusiness />
-      <div className="grid grid-cols-1 mt-8 mb-16 lg:px-10 sm:max-w-xl md:max-w-full max-w-screen-xl w-full">
+      <div className="grid grid-cols-1 mt-8 mb-16 lg:px-10 sm:max-w-xl md:max-w-full lg:max-w-screen-xl w-full">
         <CardComponent
           title="Ayuda con el Reparto"
           description="¿Tienes vehículo? únete para entregar comidas calientes a las familias afectadas."
