@@ -106,12 +106,11 @@ const TextSection = ({ title, children, imageSrc, position = "left" }) => {
               height="280"
               viewBox="0 0 24 24"
               fill="none"
-              className="text-chefs-500"
               stroke="currentColor"
               strokeWidth="2"
               strokeLinecap="round"
               strokeLinejoin="round"
-              className="lucide lucide-alarm-clock-check"
+              className="lucide lucide-alarm-clock-check text-chefs-500"
             >
               <circle cx="12" cy="13" r="8" />
               <path d="M5 3 2 6" />

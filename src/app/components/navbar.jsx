@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { useState } from "react";
 
 export const Nav = () => {
@@ -8,7 +9,7 @@ export const Nav = () => {
   return (
     <div className="z-50 px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-4 lg:px-0">
       <div className="relative flex items-center justify-between">
-        <a
+        <Link
           href="/"
           aria-label="Chef Solidarios"
           title="Chef Solidarios"
@@ -17,7 +18,7 @@ export const Nav = () => {
           <span className=" text-xl font-extrabold leading-none text-center transform scale-90 tracking-wide text-gray-800 uppercase">
             Chefs <br /> Solidarios
           </span>
-        </a>
+        </Link>
         <ul className=" items-center hidden space-x-8 lg:flex">
           <li>
             <a
@@ -44,34 +45,34 @@ export const Nav = () => {
             {isSubmenuOpen && (
               <ul className="-50z absolute -left-10 top-8 w-40 mt-2 bg-white border border-gray-200 rounded shadow-lg">
                 <li>
-                  <a
+                  <Link
                     href="/particular"
                     className="block px-4 py-2 text-gray-700 hover:bg-chefs-50 hover:text-chefs-400"
                   >
                     Soy particular
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href="/empresa"
                     className="block px-4 py-2 text-gray-700 hover:bg-chefs-50 hover:text-chefs-400"
                   >
                     Soy empresa
-                  </a>
+                  </Link>
                 </li>
               </ul>
             )}
           </li>
 
           <li>
-            <a
+            <Link
               href="/necesito-ayuda"
               className="inline-flex items-center justify-center h-12 px-6 font-bold tracking-wide text-white transition duration-200 rounded-2xl shadow-md bg-chefs-400 hover:bg-chefs-700 focus:shadow-outline focus:outline-none"
               aria-label="Necesito ayuda"
               title="Necesito ayuda"
             >
               Necesito ayuda
-            </a>
+            </Link>
           </li>
         </ul>
         <div className="lg:hidden">
@@ -101,7 +102,7 @@ export const Nav = () => {
               <div className="p-5 z-[500] bg-white border rounded shadow-sm">
                 <div className="flex items-center justify-between mb-4">
                   <div>
-                    <a
+                    <Link
                       href="/"
                       aria-label="Chef Solidarios"
                       title="Chef Solidarios"
@@ -110,7 +111,7 @@ export const Nav = () => {
                       <span className=" text-xl font-extrabold leading-none text-center transform scale-90 tracking-wide text-gray-800 uppercase">
                         Chefs <br /> Solidarios
                       </span>
-                    </a>
+                    </Link>
                   </div>
                   <div>
                     <button
@@ -151,20 +152,20 @@ export const Nav = () => {
                       </span>
                       <ul className="gap-2 pt-2 flex flex-col">
                         <li>
-                          <a
+                          <Link
                             href="/particular"
                             className="pl-4  font-semibold tracking-wide text-gray-500 transition-colors duration-200 hover:text-chefs-400"
                           >
                             Soy particular
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a
+                          <Link
                             href="/empresa"
                             className="pl-4 font-semibold tracking-wide text-gray-500 transition-colors duration-200 hover:text-chefs-400"
                           >
                             Soy empresa
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </li>
