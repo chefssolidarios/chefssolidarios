@@ -1,6 +1,36 @@
-import React from "react";
+"use client";
+import React, { useState, useEffect } from "react";
+
+// function Signature() {
+//   return fetch(
+//     "https://docs.google.com/spreadsheets/d/160aFLoi9WkkpOtw_mFrF1sOptqgQ-sI9hw5jQtdMigg/pub?output=csv"
+//   ).then((res) => res.text());
+// }
 
 function Footer() {
+  // const [signature, setSignature] = useState("");
+  // const [linkText, setLinkText] = useState("");
+  // const [linkName, setLinkName] = useState("");
+  // const [linkHref, setLinkHref] = useState("");
+
+  // useEffect(() => {
+  //   const fetchSignature = async () => {
+  //     const data = await Signature();
+  //     setSignature(data);
+
+  //     const lines = data.split("\n");
+  //     if (lines.length > 1) {
+  //       const firstLine = lines[4];
+  //       const [text, name, href] = firstLine.split(",");
+  //       setLinkText(text);
+  //       setLinkName(name);
+  //       setLinkHref(href);
+  //     }
+  //   };
+
+  //   fetchSignature();
+  // }, []);
+
   return (
     <div className="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 bg-black text-white mb-10 rounded-3xl">
       <div className="flex  items-center flex-col md:flex-row gap-16 justify-between  mb-8  ">
@@ -60,9 +90,14 @@ function Footer() {
         </div>
       </div>
       <div className="flex flex-col gap-6 md:flex-row justify-between items-center pt-8 pb-12 border-t sm:flex-row">
-        <span className="leading-tight text-sm">
-          Made with love by Lukecolman
-        </span>
+        {/* <a
+          href={linkHref}
+          className="leading-tight text-sm"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {linkText} <span className="font-bold">{linkName}</span>
+        </a> */}
         <ul>
           <li>
             <a
