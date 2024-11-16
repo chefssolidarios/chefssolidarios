@@ -137,6 +137,7 @@ export const Nav = () => {
                         href="https://www.gofundme.com/f/valencia-necesita-comer-ayudala"
                         aria-label="Crowfunding"
                         title="Crowfunding"
+                        target="_blank"
                         className="font-semibold tracking-wide text-gray-700 transition-colors duration-200 hover:text-chefs-400"
                       >
                         Crowfunding
