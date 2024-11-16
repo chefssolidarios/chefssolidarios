@@ -25,6 +25,7 @@ export const Nav = () => {
               href="https://www.gofundme.com/f/valencia-necesita-comer-ayudala"
               aria-label="Crowfunding"
               title="Crowfunding"
+              target="_blank"
               className="font-bold tracking-wide text-gray-700 transition-colors duration-200 hover:text-chefs-400"
             >
               Crowfunding
@@ -43,7 +44,7 @@ export const Nav = () => {
 
             {/* Menú desplegable */}
             {isSubmenuOpen && (
-              <ul className="-50z absolute -left-10 top-8 w-40 mt-2 bg-white border border-gray-200 rounded shadow-lg">
+              <ul className="z-50 absolute -left-10 top-8 w-40 mt-2 bg-white border border-gray-200 rounded shadow-lg">
                 <li>
                   <Link
                     href="/particular"
