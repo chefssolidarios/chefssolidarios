@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         "support-hands": "url('/images/support-hands.webp')",
+        "delivery-man": "url('/images/delivery-man.webp')",
       },
       colors: {
         background: "var(--background)",

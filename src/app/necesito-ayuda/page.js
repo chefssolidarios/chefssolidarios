@@ -12,7 +12,7 @@ export default function Page() {
         </p>
       </div>
       <div className="grid gap-8 row-gap-5 md:row-gap-8 lg:grid-cols-3">
-        <div className="p-5 duration-300 transform bg-white border-2 border-dashed rounded shadow-sm border-chefs-100 hover:-translate-y-2">
+        <div className="p-5 duration-300 transform bg-white border-2 border-dashed rounded-2xl shadow-sm border-chefs-100 hover:-translate-y-2">
           <div className="flex items-center mb-2">
             <p className="flex items-center justify-center w-10 h-10 mr-2 text-lg font-bold text-white rounded-full bg-chefs-400">
               1
@@ -25,7 +25,7 @@ export default function Page() {
             Contáctanos por Instagram y envíanos tu solicitud de ayuda.
           </p>
         </div>
-        <div className="p-5 duration-300 transform bg-white border-2 border-dashed rounded shadow-sm border-chefs-200 hover:-translate-y-2">
+        <div className="p-5 duration-300 transform bg-white border-2 border-dashed rounded-2xl shadow-sm border-chefs-200 hover:-translate-y-2">
           <div className="flex items-center mb-2">
             <p className="flex items-center justify-center w-10 h-10 mr-2 text-lg font-bold text-white rounded-full bg-chefs-400">
               2
@@ -39,7 +39,7 @@ export default function Page() {
             ayudarte mejor.
           </p>
         </div>
-        <div className="relative p-5 duration-300 transform bg-white border-2 rounded shadow-sm border-chefs-700 hover:-translate-y-2">
+        <div className="relative p-5 duration-300 transform bg-white border-2 rounded-2xl shadow-sm border-chefs-700 hover:-translate-y-2">
           <div className="flex items-center mb-2">
             <p className="flex items-center justify-center w-10 h-10 mr-2 text-lg font-bold text-white rounded-full bg-chefs-400">
               3

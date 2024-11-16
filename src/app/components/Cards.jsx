@@ -26,7 +26,7 @@ const CardComponent = ({ title, description, linkText, linkUrl, iconName }) => {
     <a
       target="_blank"
       href={linkUrl}
-      className="relative p-px overflow-hidden transition duration-300 transform border  shadow-sm hover:scale-105 group hover:shadow-xl rounded-3xl !bg-chefs-800 hover:!bg-chefs-500"
+      className="z-30 relative p-px overflow-hidden transition duration-300 transform border  shadow-sm hover:scale-105 group hover:shadow-xl rounded-3xl !bg-chefs-800 hover:!bg-chefs-500"
     >
       <div className="relative flex flex-col h-full p-5 md:p-10  rounded-sm lg:items-center lg:flex-row ">
         <div className="mb-6 mr-6 md:mr-10 lg:mb-0">

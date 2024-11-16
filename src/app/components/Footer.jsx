@@ -3,8 +3,8 @@ import React from "react";
 function Footer() {
   return (
     <div className="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 bg-black text-white mb-10 rounded-3xl">
-      <div className="flex gap-16 justify-between  mb-8  ">
-        <div className="md:max-w-md lg:col-span-2">
+      <div className="flex  items-center flex-col md:flex-row gap-16 justify-between  mb-8  ">
+        <div className="flex flex-col items-center md:items-start md:max-w-md lg:col-span-2">
           <div className="text-center w-fit">
             <span className=" text-xl font-extrabold leading-none text-center transform scale-90 tracking-wide text-white uppercase">
               Chefs <br /> Solidarios
@@ -14,7 +14,7 @@ function Footer() {
             <p className="text-base ">Chefs Solidarios en Acción🍲 </p>
           </div>
         </div>
-        <div className=" md:mr-10 flex gap-16 ">
+        <div className=" md:mr-10 flex flex-col  md:flex-row gap-16 ">
           <div>
             <p className="font-semibold tracking-wide ">Quiero ayudar</p>
             <ul className="mt-2 space-y-2">
@@ -59,7 +59,7 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="flex flex-row justify-between items-center pt-8 pb-12 border-t sm:flex-row">
+      <div className="flex flex-col gap-6 md:flex-row justify-between items-center pt-8 pb-12 border-t sm:flex-row">
         <span className="leading-tight text-sm">
           Made with love by Lukecolman
         </span>

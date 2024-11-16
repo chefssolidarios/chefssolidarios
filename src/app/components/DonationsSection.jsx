@@ -46,10 +46,10 @@ const DonationsSection = () => {
           explicando tu aportación.
         </p>
         <hr className="my-8 border-gray-300" />
-        <div className="flex items-center mb-3 gap-4 sm:justify-center">
+        <div className="flex items-center mb-3 gap-4 sm:justify-center flex-col md:flex-row">
           <a
             href="https://www.gofundme.com/f/valencia-necesita-comer-ayudala"
-            className="inline-flex items-center justify-center h-12 px-6 font-bold tracking-wide text-white transition duration-200 rounded-2xl shadow-md bg-chefs-400 hover:bg-chefs-700 focus:shadow-outline focus:outline-none"
+            className="inline-flex items-center justify-center  w-full md:w-auto  py-3 px-6 font-bold tracking-wide text-white transition duration-200 rounded-2xl shadow-md bg-chefs-400 hover:bg-chefs-700 focus:shadow-outline focus:outline-none text-center"
             aria-label="Necesito ayuda"
             title="Necesito ayuda"
           >
@@ -57,7 +57,7 @@ const DonationsSection = () => {
           </a>
           <a
             href="mailto:chefssolidarios.donar@gmail.com"
-            className="inline-flex items-center justify-center h-12 px-6 font-bold tracking-wide text-white transition duration-200 rounded-2xl shadow-md bg-chefs-400 hover:bg-chefs-700 focus:shadow-outline focus:outline-none"
+            className="inline-flex items-center justify-center  w-full md:w-auto py-3 px-6 font-bold tracking-wide text-white transition duration-200 rounded-2xl shadow-md bg-chefs-400 hover:bg-chefs-700 focus:shadow-outline focus:outline-none text-center"
             aria-label="Necesito ayuda"
             title="Necesito ayuda"
           >

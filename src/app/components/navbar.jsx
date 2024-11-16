@@ -6,7 +6,7 @@ export const Nav = () => {
   const [isSubmenuOpen, setIsSubmenuOpen] = useState(false);
 
   return (
-    <div className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-0 lg:px-0">
+    <div className="z-50 px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-4 lg:px-0">
       <div className="relative flex items-center justify-between">
         <a
           href="/"
@@ -42,7 +42,7 @@ export const Nav = () => {
 
             {/* Menú desplegable */}
             {isSubmenuOpen && (
-              <ul className="z-50 absolute -left-10 top-8 w-40 mt-2 bg-white border border-gray-200 rounded shadow-lg">
+              <ul className="-50z absolute -left-10 top-8 w-40 mt-2 bg-white border border-gray-200 rounded shadow-lg">
                 <li>
                   <a
                     href="/particular"
@@ -97,7 +97,7 @@ export const Nav = () => {
             </svg>
           </button>
           {isMenuOpen && (
-            <div className="absolute top-0 left-0 w-full">
+            <div className="z-50 absolute top-0 left-0 w-full">
               <div className="p-5 z-[500] bg-white border rounded shadow-sm">
                 <div className="flex items-center justify-between mb-4">
                   <div>
@@ -107,23 +107,8 @@ export const Nav = () => {
                       title="Chef Solidarios"
                       className="inline-flex items-center"
                     >
-                      <svg
-                        className="w-8 text-chefs-400"
-                        viewBox="0 0 24 24"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeMiterlimit="10"
-                        stroke="currentColor"
-                        fill="none"
-                      >
-                        <rect x="3" y="1" width="7" height="12" />
-                        <rect x="3" y="17" width="7" height="6" />
-                        <rect x="14" y="1" width="7" height="6" />
-                        <rect x="14" y="11" width="7" height="12" />
-                      </svg>
-                      <span className="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
-                        Chef Solidarios
+                      <span className=" text-xl font-extrabold leading-none text-center transform scale-90 tracking-wide text-gray-800 uppercase">
+                        Chefs <br /> Solidarios
                       </span>
                     </a>
                   </div>
@@ -187,7 +172,7 @@ export const Nav = () => {
                     <li>
                       <a
                         href="/necesito-ayuda"
-                        className="inline-flex items-center justify-center w-full h-12 px-6 font-semibold tracking-wide text-white transition duration-200 rounded shadow-md bg-chefs-400 hover:bg-chefs-700 focus:shadow-outline focus:outline-none"
+                        className="inline-flex items-center justify-center w-full h-12 px-6 font-semibold tracking-wide text-white transition duration-200 rounded-2xl shadow-md bg-chefs-400 hover:bg-chefs-700 focus:shadow-outline focus:outline-none"
                         aria-label="Necesito Ayuda"
                         title="Necesito Ayuda"
                       >

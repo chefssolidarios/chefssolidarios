@@ -3,15 +3,15 @@
 export const Header = () => {
   return (
     <div className=" w-full lg:max-w-screen-xl z-10">
-      <div className=" bg-support-hands bg-cover bg-center rounded-3xl px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:pt-36 lg:pb-12">
+      <div className=" bg-support-hands bg-cover bg-center rounded-3xl px-4 pt-20 pb-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-8 lg:px-8 lg:pt-36 lg:pb-12">
         <div className=" sm:mx-auto  ">
-          <div className="flex flex-col md:flex-row mb-16 sm:text-center sm:mb-0 items-end justify-between">
-            <div className="  max-w-3xl text-left">
-              <h2 className=" mb-2 font-sans text-3xl font-extrabold tracking-tight text-white sm:text-4xl md:mx-auto md:text-9xl">
-                <span className="block -mb-4">CHEFS</span>
+          <div className="flex flex-col md:flex-row  sm:text-center sm:mb-0 items-end justify-between">
+            <div className="max-w-3xl text-left">
+              <h2 className=" mb-2 font-sans text-4xl font-extrabold tracking-tight text-white sm:text-4xl md:mx-auto md:text-7xl lg:text-9xl">
+                <span className="block -mb-2 lg:-mb-4">CHEFS</span>
                 <span className="block ">SOLIDARIOS</span>
               </h2>
-              <p className="text-base text-indigo-100 md:text-lg">
+              <p className="text-base font-semibold text-white md:text-lg">
                 Juntos, cocinamos y distribuimos alimentos calientes para los
                 afectados por la DANA en Valencia y alrededores. Tu ayuda marca
                 la diferencia.
