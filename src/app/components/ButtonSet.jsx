@@ -3,7 +3,7 @@ import React from "react";
 function ButtonSet() {
   return (
     <>
-      <div className=" w-full lg:max-w-screen-xl bg-violet-400/10 pt-10 -mt-10">
+      <div className=" w-full lg:max-w-screen-xl ">
         <div className=" py-6 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl ">
           <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-8">
             <div className="relative overflow-hidden bg-chefs-600/70 border-2 border-chefs-400 hover:bg-chefs-500 rounded-2xl transition duration-300 transform  hover:scale-105">
