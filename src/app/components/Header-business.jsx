@@ -31,7 +31,7 @@ export const HeaderBusiness = () => {
             <div>
               <a
                 href="mailto:chefsolidarios.donar@gmail.com?subject=EMPRESAS"
-                className="inline-flex lg:items-center mt-6 justify-center px-6 font-medium tracking-wide text-white transition duration-200  shadow-md bg-chefs-800 hover:bg-chefs-500 focus:shadow-outline focus:outline-none text-base font-semibold rounded-2xl lg:rounded-3xl md:text-xl py-4 lg:text-3xl lg:py-7"
+                className="inline-flex lg:items-center mt-6 justify-center px-6 tracking-wide text-white transition duration-200  shadow-md bg-chefs-800 hover:bg-chefs-500 focus:shadow-outline focus:outline-none text-base font-semibold rounded-2xl lg:rounded-3xl md:text-xl py-4 lg:text-3xl lg:py-7"
                 aria-label="Contactar ahora"
                 title="Contactar ahora"
               >
