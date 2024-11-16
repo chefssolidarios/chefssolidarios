@@ -1,6 +1,6 @@
 import React from "react";
 
-const CardComponent = ({ title, description, linkText, linkUrl, iconName }) => {
+const CardComponent = ({ title, description, linkText, linkUrl, iconName, target}) => {
   const icons = [
     {
       name: "Truck",
@@ -24,7 +24,7 @@ const CardComponent = ({ title, description, linkText, linkUrl, iconName }) => {
 
   return (
     <a
-      target="_blank"
+      target={target}
       href={linkUrl}
       className="z-30 relative p-px overflow-hidden transition duration-300 transform border  shadow-sm hover:scale-105 group hover:shadow-xl rounded-3xl !bg-chefs-800 hover:!bg-chefs-500"
     >

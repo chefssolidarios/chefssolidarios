@@ -15,6 +15,7 @@ function Particular() {
           linkText="Quiero ser voluntario"
           linkUrl="https://docs.google.com/forms/d/e/1FAIpQLSc6SokDK1WtDHsTXDC2FUrQs-a-myKKNQuWUhzLbS9OZBoFiw/viewform"
           iconName="Volunteer"
+          target="_blank"
         />
         <CardComponent
           title="Sé un Chef Solidario"
@@ -29,6 +30,7 @@ function Particular() {
           linkText="Quiero ayudar con el reparto"
           linkUrl="https://docs.google.com/forms/d/e/1FAIpQLSc6SokDK1WtDHsTXDC2FUrQs-a-myKKNQuWUhzLbS9OZBoFiw/viewform"
           iconName="Truck"
+          target="_blank"
         />
         <CardComponent
           title="Apoya con Tu Donación"
